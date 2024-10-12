@@ -1,0 +1,36 @@
+
+  body {
+  color: #fef5d3;
+  background-color: #0e2402;
+  h1 {
+      color: #fef5d3;
+  }
+    h2 {
+        color: #fef5d3;
+    }
+  }
+  .worklist {
+    color: #fef5d3 !important;
+  }
+.worklist ul {
+      color: #fef5d3 !important;
+    }
+.worklist li {
+      color: #fef5d3 !important;
+    }
+  .worklist-link {
+    color: #fef5d3;
+  }
+  
+  /* links */
+a {
+  color:#fef5d3;
+}
+a:hover {
+  color: #f8f4e7;
+
+}
+
+.table {
+  --bs-table-bg: #ccfbdb;
+}

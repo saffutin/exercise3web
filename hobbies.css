@@ -1,0 +1,38 @@
+body {
+    color: #fef5d3;
+    background-color: #0e2402;
+    h1 {
+        color: #fef5d3;
+    }
+    h2 {
+        color: #fef5d3;
+    }
+}
+
+
+
+/*modifies hobbies.html youtube-video*/
+.youtube_series {
+    width: 500px;
+    height: 350px;
+    position: right;   
+  }
+
+   /* modifies spotify attributes */
+   .spotify-embed {
+    width: 100% !important;
+    height: 95px;
+    position: fixed;          /* Fix the position to the viewport */
+    bottom: 0;                /* Stick to the bottom */
+    left: 0;                  /* Ensure it aligns to the left side */
+    left: 10px;       
+
+
+   }
+
+   .container_youtube_hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Create two equal columns */
+    gap: 20px; /* Space between the columns */
+    padding: 20px; /* Add some padding around the container */
+    }

@@ -1,0 +1,48 @@
+body {
+    color: #fef5d3;
+    background-color: #0e2402;
+    h1 {
+        color: #fef5d3;
+    }
+
+}
+
+
+
+div.contact {
+    display: block;
+    text-align: center;
+}
+.contact
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.contact input[type="text"], 
+.contact input[type="number"], 
+.contact textarea {
+    width: 60%; /* set the width to be 60% */
+  margin: 0 auto; /* center */
+}
+  
+.form-check {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center checkboxes and text */
+  }
+
+  .form-check-input {
+    margin-right: 0.5em; /* adds space between checkboxes and text */
+  }
+
+  navbar-brand.left {
+    text-align: left;
+  }
+
+  .btn-primary {
+    --bs-btn-color: #1a1a1a;
+    --bs-btn-bg: #fef5d3;
+  }
